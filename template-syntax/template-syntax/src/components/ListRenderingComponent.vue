@@ -15,12 +15,13 @@
 <script setup>
 import { ref } from 'vue';
 
+
 // Rendering a Range of Numbers
 const employees = ref([
   { id: 1, name: 'John', position: 'Manager' },
   { id: 2, name: 'Jane', position: 'Developer' },
   { id: 3, name: 'Sam', position: 'Designer' }
-]);
+]); 
 
 
 // Rendering an Object's Properties
