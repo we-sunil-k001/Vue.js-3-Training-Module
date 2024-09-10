@@ -6,6 +6,8 @@
   <hr>
   <FormInputComp></FormInputComp>
   <hr>
+  <WatchComponent></WatchComponent>
+  <hr>
 </template>
     
 <style>
