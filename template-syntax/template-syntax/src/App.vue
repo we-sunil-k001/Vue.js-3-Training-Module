@@ -5,6 +5,8 @@
   <hr>
   <TemplateRef></TemplateRef>
   <hr>
+  <ParentComponent></ParentComponent>
+  <hr>
 </template>
     
 <style>
