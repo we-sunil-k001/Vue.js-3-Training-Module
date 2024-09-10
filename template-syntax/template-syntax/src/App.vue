@@ -3,6 +3,8 @@
   <hr>
   <LifeCyscleHooks></LifeCyscleHooks>
   <hr>
+  <TemplateRef></TemplateRef>
+  <hr>
 </template>
     
 <style>

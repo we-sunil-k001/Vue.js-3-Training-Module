@@ -1,8 +1,9 @@
 <template>
+#Lifecycle Hooks
 <ol>
     <li>
         <div>
-            <h2>Vue 3 Lifecycle Hooks Example</h2>
+            <h2>Vue 3 Lifecycle Hooks</h2>
             <p>Message: {{ message }}</p>
             <button @click="updateMessage">Update Message</button>
         </div>
