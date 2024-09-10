@@ -4,6 +4,8 @@
   <hr>
   <EventHandlingComp></EventHandlingComp>
   <hr>
+  <FormInputComp></FormInputComp>
+  <hr>
 </template>
     
 <style>
