@@ -3,23 +3,46 @@
 </template>
 
 <script setup>
-// Basic GET Request==============================
 
-fetch('https://jsonplaceholder.typicode.com/users')
-  .then(response => {
-    // Check if the request was successful
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    // Parse the response as JSON
-    return response.json();
-  })
-  .then(data => {
-    console.log(data); // Handle the fetched data (an array of users)
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });
+    //------------------------------------------------------------------------------------
+    // HTTP Requests (with Fetch API)  
+    //------------------------------------------------------------------------------------
+
+        // Basic GET Request----------------------------------
+
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => {
+            // Check if the request was successful
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            // Parse the response as JSON
+            return response.json();
+        })
+        .then(data => {
+            console.log(data); // Handle the fetched data (an array of users)
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+
+
+
+    //------------------------------------------------------------------------------------
+    // HTTP Requests (with Axios library)   - Lib. included in index.html through cdn
+    //------------------------------------------------------------------------------------
+
+        //  GET Request-------------------------------------------
+        axios.get('https://jsonplaceholder.typicode.com/users')
+        .then(response => {
+            console.log(response.data); // Handle the fetched data
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+
+
+
 
 </script>
 
