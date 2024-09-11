@@ -20,6 +20,10 @@
   <hr>
   <WatchComponent></WatchComponent>
   <hr>
+  <HTTPRequests></HTTPRequests>
+  <hr>
+  <AccessJson></AccessJson>
+  <hr>
 </template>
     
 <style>
