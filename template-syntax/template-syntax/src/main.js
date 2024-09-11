@@ -12,6 +12,8 @@ import ListRenderingComp from './components/ListRenderingComponent.vue';
 import EventHandlingComp from './components/EventHandling.vue';
 import FormInputComp from './components/FormInput.vue';
 import WatchComponent from './components/WatchComponent.vue';
+import SlotComponent from './components/SlotComponent.vue';
+import NamedSlotAndSlotProps from './components/NamedSlotAndSlotProps.vue';
 
 const app = createApp(App);
 
@@ -25,5 +27,7 @@ app.component('ListRenderingComp', ListRenderingComp);
 app.component('EventHandlingComp', EventHandlingComp);
 app.component('FormInputComp', FormInputComp);
 app.component('WatchComponent', WatchComponent);
+app.component('SlotComponent', SlotComponent);
+app.component('NamedSlotAndSlotProps', NamedSlotAndSlotProps);
 
 app.mount('#app');
