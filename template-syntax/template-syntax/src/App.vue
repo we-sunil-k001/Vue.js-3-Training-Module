@@ -1,18 +1,12 @@
 
 <template>
-  <counter></counter>
+
   <hr>
-  <TemplateSyntax></TemplateSyntax>
+  <EventHandlingComp></EventHandlingComp>
   <hr>
-  <ComputedComp></ComputedComp>
+  <FormInputComp></FormInputComp>
   <hr>
-  <ClassComp></ClassComp>
-  <hr>
-  <StyleComp></StyleComp>
-  <hr>
-  <ConditionalComp></ConditionalComp>
-  <hr>
-  <ListRenderingComp></ListRenderingComp>
+  <WatchComponent></WatchComponent>
   <hr>
 </template>
     
