@@ -11,6 +11,8 @@
   <hr>
   <VmodelParentComp></VmodelParentComp>
   <hr>
+  <TeleportAModalComp></TeleportAModalComp>
+  <hr>
 </template>
     
 <style>
