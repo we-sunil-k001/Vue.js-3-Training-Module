@@ -7,6 +7,10 @@
   <hr>
   <ParentComponent></ParentComponent>
   <hr>
+  <PostComponent></PostComponent>
+  <hr>
+  <VmodelParentComp></VmodelParentComp>
+  <hr>
 </template>
     
 <style>
