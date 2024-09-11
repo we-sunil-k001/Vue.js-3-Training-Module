@@ -20,6 +20,12 @@
   <hr>
   <WatchComponent></WatchComponent>
   <hr>
+  <!-- <SlotComponent>
+    <span>Hello</span>
+    <span style="color: red">{{name}}</span>
+  </SlotComponent> -->
+  <slotComponent/>
+  <hr>
 </template>
     
 <style>
@@ -27,3 +33,8 @@ hr{
   margin: 20px 0px;
 }
 </style>
+
+<script setup>
+import {ref} from 'vue';
+const name = ref(' Sunil');  
+</script>
