@@ -12,6 +12,7 @@ import ListRenderingComp from './components/ListRenderingComponent.vue';
 import EventHandlingComp from './components/EventHandling.vue';
 import FormInputComp from './components/FormInput.vue';
 import WatchComponent from './components/WatchComponent.vue';
+import HTTPRequests from './components/HTTPRequests.vue';
 
 const app = createApp(App);
 
@@ -25,5 +26,6 @@ app.component('ListRenderingComp', ListRenderingComp);
 app.component('EventHandlingComp', EventHandlingComp);
 app.component('FormInputComp', FormInputComp);
 app.component('WatchComponent', WatchComponent);
+app.component('HTTPRequests', HTTPRequests);
 
 app.mount('#app');
